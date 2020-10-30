@@ -6,7 +6,7 @@
   "notifications": {
     "config": {
       "icon": "",
-      "timezone": "+03:00"
+      "timezone": "-05:00"
     },
     "messages": {},
     "subscribers": {},
@@ -152,13 +152,13 @@
           "startTime": "18:15"
         },
         {
-          "endTime": "19:50",
+          "endTime": "20:30",
           "sessions": [
             {
-              "items": ["data"]
+              "items": ["amp"]
             }
           ],
-          "startTime": "19:05"
+          "startTime": "19:00"
         },
         {
           "endTime": "20:45",
@@ -253,13 +253,13 @@
           "startTime": "13:20"
         },
         {
-          "endTime": "15:00",
+          "endTime": "14:45",
           "sessions": [
             {
-              "items": ["amp"]
+              "items": ["data"]
             }
           ],
-          "startTime": "13:30"
+          "startTime": "14:00"
         },
         {
           "endTime": "17:00",
