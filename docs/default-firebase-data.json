@@ -262,6 +262,15 @@
           "startTime": "14:00"
         },
         {
+          "endTime": "16:00",
+          "sessions": [
+            {
+              "items": ["medical"]
+            }
+          ],
+          "startTime": "14:45"
+        },
+        {
           "endTime": "17:00",
           "sessions": [
             {
@@ -349,7 +358,7 @@
     },
     "low_level": {
       "complexity": "Beginner",
-      "description": "A talk explaining the philosophy and methodology of low-level, minimalist software development, using a JRPG demo I programmed as an example of what can be achieved using this methodology.",
+      "description": "A talk explaining the philosophy of minimalistic software development at the low-level. Included will be a demonstration of a simple pong game written in pure C with only a few dependencies. This talk is not technical and is aimed at programmers of all skillsets, in all sorts of domains. My intention is to present low-level development in a new, more positive light, and to reignite interest in writing low-level code.",
       "language": "English",
       "presentation": "https://github.com/VictoriaLacroix/cpong",
       "speakers": ["victoria_lacroix"],
@@ -365,14 +374,13 @@
       "tags": ["Web", "AMP", "Codelab"],
       "title": "Making Your First Site with  AMP"
     },
-    "110": {
+    "medical": {
       "complexity": "Intermediate",
-      "description": "There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they tied Presenters' and Views' lifecycles and what they did to make it all testable. If you'd love to make your Fragments' and Activities' code simpler and increase your coverage, but you're confused how to glue it all together - don't miss Mateusz's talk.",
+      "description": "",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/mateusz-herych-the-ultimate-guide-to-mvp-pattern-on-android",
-      "speakers": ["mateusz_herych"],
-      "tags": ["Android"],
-      "title": "The ultimate guide to MVP pattern on Android"
+      "speakers": ["jacques_abourbih"],
+      "tags": [""],
+      "title": ""
     },
     "111": {
       "complexity": "Intermediate",
@@ -745,6 +753,30 @@
       "order": 5,
       "title": " Director of Developer Experience"
     },
+    "jacques_abourbih": {
+      "bio": "",
+      "company": "Northern Ontario School of Medicine",
+      "featured": true,
+      "name": "Dr. Jacques Abourbih MDCM, FRCS(C)",
+      "photo": "/images/people/placeholder.png",
+      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/placeholder.png",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "order": 10,
+      "title": "Associate Professor of Surgery"
+    },
+    "brian_visneski": {
+      "bio": "",
+      "company": "Rainbow District School Board",
+      "featured": true,
+      "name": "",
+      "photo": "/images/people/placeholder.png",
+      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/placeholder.png",
+      "pronouns": "he/him",
+      "shortBio": "",
+      "order": 11,
+      "title": ""
+    },
     "david_pellegrini": {
       "bio": "David's research focuses on developing an open source platform for social media data collection and analysis.\n\nIn his free time in front of a screen there's usually coffee and either code or a video game. Away from a screen he's usually outside and (or) climbing a wall somewhere.",
       "company": "Cambrian College",
@@ -775,7 +807,7 @@
         "name" : "Website"
       }
       ],
-      "order": 10,
+      "order": 12,
       "title": "Professor"
     }
   },
