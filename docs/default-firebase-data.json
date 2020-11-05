@@ -121,6 +121,24 @@
             }
           ],
           "startTime": "18:15"
+        },
+        {
+          "endTime": "20:30",
+          "sessions": [
+            {
+              "items": ["medical"]
+            }
+          ],
+          "startTime": "18:45"
+        },
+        {
+          "endTime": "20:45",
+          "sessions": [
+            {
+              "items": ["winddown"]
+            }
+          ],
+          "startTime": "20:30"
         }
       ],
       "tracks": [
@@ -190,31 +208,13 @@
           "startTime": "10:00"
         },
         {
-          "endTime": "11:00",
+          "endTime": "12:00",
           "sessions": [
             {
               "items": ["gitpod"]
             }
           ],
-          "startTime": "10:15"
-        },
-        {
-          "endTime": "11:05",
-          "sessions": [
-            {
-              "items": ["break"]
-            }
-          ],
-          "startTime": "11:00"
-        },
-        {
-          "endTime": "11:50",
-          "sessions": [
-            {
-              "items": ["data_science"]
-            }
-          ],
-          "startTime": "11:05"
+          "startTime": "11:15"
         },
         {
           "endTime": "12:30",
@@ -223,7 +223,7 @@
               "items": ["lunch"]
             }
           ],
-          "startTime": "11:50"
+          "startTime": "12:00"
         },
         {
           "endTime": "12:50",
@@ -262,13 +262,40 @@
           "startTime": "14:00"
         },
         {
-          "endTime": "16:00",
+          "endTime": "13:30",
           "sessions": [
             {
-              "items": ["medical"]
+              "items": ["break"]
             }
           ],
-          "startTime": "14:45"
+          "startTime": "13:20"
+        },
+        {
+          "endTime": "15:45",
+          "sessions": [
+            {
+              "items": ["data_science"]
+            }
+          ],
+          "startTime": "15:00"
+        },
+        {
+          "endTime": "15:50",
+          "sessions": [
+            {
+              "items": ["break"]
+            }
+          ],
+          "startTime": "15:45"
+        },
+        {
+          "endTime": "16:45",
+          "sessions": [
+            {
+              "items": ["fireside"]
+            }
+          ],
+          "startTime": "15:50"
         },
         {
           "endTime": "17:00",
@@ -291,6 +318,7 @@
     "welcome": {
       "description": "Welcome to Sudbury DevFest 2020!",
       "icon": "registration",
+      "presentation": "https://docs.google.com/presentation/d/1i_7ccU7EeOroTjrcm5jDTWqFt2KebTHkEdEM2WmmXRk/edit?usp=sharing",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
       "title": "Welcome/ Intro"
     },
@@ -345,6 +373,7 @@
       "complexity": "Beginner",
       "description": "Data Science",
       "language": "English",
+      "speakers": ["pragith_prakash"],
       "tags": ["Data"],
       "title": "Data Science"
     },
@@ -375,21 +404,20 @@
       "title": "Making Your First Site with  AMP"
     },
     "medical": {
-      "complexity": "Intermediate",
-      "description": "",
+      "complexity": "Beginner",
+      "description": "Participants will hear how technology has changed the way medicine is practiced today: the Da Vinci arm - Where is the surgeon? Who is doing the surgery? Diagnostic imaging - the story of the man who thought his wife was a hat; genetics - family secrets your mother never told you, thinking outside the box: the battle for a COVID-19 vaccine; Extracorporeal Shockwave Lithotripsy - from supersonic jets boom to breaking up my kidney stones; science fiction reality - becoming a cyborg",
       "language": "English",
       "speakers": ["jacques_abourbih"],
-      "tags": [""],
-      "title": ""
+      "tags": ["Philosophy"],
+      "title": "How Technology has Changed Medicine"
     },
-    "111": {
-      "complexity": "Intermediate",
-      "description": "It's beauty, it's handy, it's fast, it's easy - all about Dagger 2",
+    "fireside": {
+      "complexity": "Beginner",
+      "description": "Join us for a \"fireside\" chat to discuss our personal journeys so far in technology, as well as some of the issues or goals we see and have. Everyone is welcome to share their jounrey and thoughts as well.",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/kseniia-shumelchyk-building-modular-architecture-apps-with-dagger-2",
-      "speakers": ["david_mayboroda"],
-      "tags": ["Android"],
-      "title": "Building modular architecture apps with Dagger 2"
+      "speakers": ["david_pellegrini"],
+      "tags": ["Community"],
+      "title": "Fireside Chat"
     },
     "112": {
       "complexity": "Intermediate",
@@ -725,57 +753,53 @@
       "title": "Aquatic Biologist"
     },
     "jan_keromnes": {
-      "bio": "Jan is the creator of Janitor, and he has been automating development environments for almost a decade. He is passionate about making software development saner, easier, and more accessible for all humans.",
-      "company": "Gitpod, Inc.",
-      "featured": true,
-      "name": "Jan Keromnes",
-      "photo": "/images/people/jan_keromnes.png",
-      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jan_keromnes.png",
+      "bio": "I am studying Computer Science at Laurentian University. My passion for the Web as a platform for everyone and Open Source Software fuel my work on projects.",
+      "company": "Laurentian University",
+      "featured": false,
+      "name": "Patrick Trottier",
+      "photo" : "https://crosh.ca/wp-content/uploads/2020/09/PatrickJTrottier-bw-400x500.png",
       "pronouns": "he/him",
-      "shortBio": "Jan is the creator of Janitor, and he has been automating development environments for almost a decade.",
-      "socials": [
-        {
-          "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/jankeromnes/",
-          "name": "LinkedIn"
-        },
-        {
-          "icon": "github",
-          "link": "https://github.com/jankeromnes",
-          "name": "GitHub"
-        },
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/jankeromnes",
-          "name": "Twitter"
-        }
-      ],
+      "shortBio": "I am studying Computer Science at Laurentian University. My passion for the Web as a platform for everyone and Open Source Software fuel my work on projects",
+      "socials" : [ {
+        "icon" : "github",
+        "link" : "https://twitter.com/ptrottier",
+        "name" : "Twitter"
+      } ],
       "order": 5,
-      "title": " Director of Developer Experience"
+      "title": "Student"
     },
     "jacques_abourbih": {
-      "bio": "",
+      "bio": "After leaving his career as a surgeon in 2005 following an unfortunate accident, Dr. Abourbih participated in developing the undergraduate Medical education. Dr. Abourbih has been semi-retired since 2014 and continue to teach medical students. His main research interest is Medical Education. I published several articles on the subject.",
       "company": "Northern Ontario School of Medicine",
       "featured": true,
       "name": "Dr. Jacques Abourbih MDCM, FRCS(C)",
-      "photo": "/images/people/placeholder.png",
+      "photo": "/images/people/jacques_abourbih.jpg",
       "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/placeholder.png",
       "pronouns": "he/him",
-      "shortBio": "",
+      "shortBio": "Dr. Abourbih is a professor at NOSM focusing his research on Medical Education",
       "order": 10,
       "title": "Associate Professor of Surgery"
     },
-    "brian_visneski": {
-      "bio": "",
-      "company": "Rainbow District School Board",
+    "pragith_prakash": {
+      "bio": "Google Cloud Certified Professional Data Engineer. AWS Certified Cloud Practitioner.\nPart-Time Professor at Cambrian College of Applied Arts and Technology teaching Stats & Data Visualization using R.\n7+ years of experience in building and automating data products using R, Python & SQL with supporting tools and technologies like AWS, Google Cloud, Azure & Git. Over 12 years of exposure to Computer Networking, Security and Software Development through hobby learning.\nI have great passion in Data Engineering and Automation. Combining business systems with latest technology and trends, I am also skilled at devising and directing the development of innovative solutions that improve speed, efficiency and cost-effectiveness.\n• Diverse work culture and consulting experience from Startups to Big-4 with clients across the World\n• Apply, propagate and lead DevOps mindset and culture within the team and clients\n• Excellent, proven data munging and automation skills\n• Strong customer service orientation\n• Dedicated, committed, analytical, team player, innovative with integrity",
+      "company": "Cambrian College of Applied Arts and Technology",
       "featured": true,
-      "name": "",
-      "photo": "/images/people/placeholder.png",
-      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/placeholder.png",
+      "name": "Pragith Prakash",
+      "photo" : "https://media-exp1.licdn.com/dms/image/C4E03AQG2pGCxD1UV5A/profile-displayphoto-shrink_200_200/0?e=1609977600&v=beta&t=y4RHiBwX7fdkzEMomJAMHvkc5J6sQocxJzYUpXKTt3I",
       "pronouns": "he/him",
-      "shortBio": "",
-      "order": 11,
-      "title": ""
+      "shortBio": "Google Cloud Certified Professional Data Engineer. AWS Certified Cloud Practitioner. Part-Time Professor at Cambrian College of Applied Arts and Technology teaching Stats & Data Visualization using R.",
+      "socials" : [ {
+        "icon" : "website",
+        "link" : "https://pragith.net/",
+        "name" : "Website"
+      },
+      {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/pragith/",
+        "name" : "LinkedIn"
+      } ],
+      "order": 5,
+      "title": "Data Science Consultant | Professor (Part-Time) | GDG Lead"
     },
     "david_pellegrini": {
       "bio": "David's research focuses on developing an open source platform for social media data collection and analysis.\n\nIn his free time in front of a screen there's usually coffee and either code or a video game. Away from a screen he's usually outside and (or) climbing a wall somewhere.",
@@ -849,12 +873,34 @@
       } ],
       "title" : "Organizer"
     }, {
+      "name" : "Patrick Trottier",
+      "photo" : "https://crosh.ca/wp-content/uploads/2020/09/PatrickJTrottier-bw-400x500.png",
+      "socials" : [ {
+        "icon" : "github",
+        "link" : "https://twitter.com/ptrottier",
+        "name" : "Twitter"
+      } ],
+      "title" : "Organizer"
+    }, {
       "name" : "Nathan Abourbih",
-      "photo" : "/images/people/placeholder.png",
+      "photo" : "https://media-exp1.licdn.com/dms/image/C5603AQHYXk3d8crWTQ/profile-displayphoto-shrink_200_200/0?e=1609977600&v=beta&t=iNIaoL6adRNVMDLhU1Tz81ASMsE5tmbFqe52NNKVAxg",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/code_professor",
         "name" : "Twitter"
+      } ],
+      "title" : "Organizer"
+    }, {
+      "name" : "Aditya Phadke",
+      "photo" : "https://media-exp1.licdn.com/dms/image/C5603AQEqzUv1AENvtA/profile-displayphoto-shrink_800_800/0?e=1609977600&v=beta&t=J21Pp6IhJs80ZzKb5nlWCOMSpuheDLJWmah24J3UXHE",
+      "socials" : [ {
+        "icon" : "github",
+        "link" : "https://https://github.com/adi020897",
+        "name" : "Github"
+      },{
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/aditya-phadke-27a849139/",
+        "name" : "LinkedIn"
       } ],
       "title" : "Organizer"
     } ],
